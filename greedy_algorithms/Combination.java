@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Combination {
 
     public ArrayList<Integer> minimumSum(int money) {
         ArrayList<Integer> combination = new ArrayList<>();
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main mainInstance = new Main();
+        Combination mainInstance = new Combination();
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> combination = mainInstance.minimumSum(scanner.nextInt());
         StringBuilder stringBuilder = new StringBuilder();

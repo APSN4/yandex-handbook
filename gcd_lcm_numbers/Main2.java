@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
 
     public long GCD(long a, long b) {
         while (a > 0 && b > 0) {
@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main mainInstance = new Main();
+        Main2 mainInstance = new Main2();
         Scanner reader = new Scanner(System.in);
         long numberA = reader.nextLong();
         long numberB = reader.nextLong();

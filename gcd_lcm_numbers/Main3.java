@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main3 {
 
     public long[] fibonacci(long n) {
         long last = 0;
@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main mainInstance = new Main();
+        Main3 mainInstance = new Main3();
          Scanner reader = new Scanner(System.in);
          long number = reader.nextLong();
          long[] output = mainInstance.fibonacci(number);

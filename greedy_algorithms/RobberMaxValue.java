@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class RobberMaxValue {
 
     public double robberMaxValue(ExersiceInput exersiceInput) {
         ArrayList<ArrayList<Double>> valueProducts = new ArrayList<>();
@@ -35,7 +35,7 @@ public class Main {
             exersiceInput.products.add(new ArrayList<>(Arrays.asList(scanner.nextInt(), scanner.nextInt())));
         }
 
-        Main main = new Main();
+        RobberMaxValue main = new RobberMaxValue();
         String output = String.valueOf(Math.floor(main.robberMaxValue(exersiceInput) * 1000 +.5) / 1000);
         if (output.endsWith(".0")) {
             System.out.println(output + "00");
